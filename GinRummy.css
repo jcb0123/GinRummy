@@ -1,0 +1,83 @@
+body{
+    background-image: url("images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#container{
+
+    height: 600px;
+    width: 900px;
+    margin-top: 5%
+}
+
+#cards1{
+    height: 200px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#cards2{
+    height: 200px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#deck{
+    margin-left: auto;
+    height: 200px;
+    display: inline;
+    position: relative;
+    top: 60px;
+}
+
+#discard{
+    height: 200px;
+    display: inline;
+    position: relative;
+    top: 60px;
+}
+
+
+#header{
+    font-size: 100pt;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 10px 10px 10px black;
+}
+
+#nav{
+    display: block;
+}
+
+nav{
+    text-align: center;
+    display: inline-block;
+}
+
+nav a{
+    font-size: 20pt;
+    text-decoration: none;
+    font-family: fantasy;
+    color: darkblue;
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
