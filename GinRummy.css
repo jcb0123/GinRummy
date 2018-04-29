@@ -2,6 +2,7 @@ body{
     background-image: url("images/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .center{
@@ -50,7 +51,8 @@ body{
 }
 
 
-#header{
+
+.header{
     font-size: 100pt;
     color: white;
     margin-top: 0;
@@ -76,8 +78,90 @@ nav a{
     color: darkblue;
     display: block;
     width: 200px;
-    height: 50px;
+    height: 30px;
     padding-top: 20px;
     margin-right: 150px;
     margin-left: 150px;
+    
+}
+
+#gameOverNav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gameOverNav a{
+    font-family: fantasy;
+    color: darkblue;
+    font-size: 20pt;
+    text-decoration: none;
+    display: inline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#scoreboard td{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 30pt;
+    height: 200px;
+    width: 300px;
+    border: 5px solid white;
+}
+
+/*main game*/
+
+#maingame img:active{
+    
+}
+
+#hand1 button{
+    background: none;
+    border: none;
+    height: 150px;
+    width: 100px;
+}
+
+#hand1 button img{
+    height: 150px;
+    width: 100px;
+    box-shadow: none;
+}
+
+#hand1{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#hand2{
+    position: fixed;
+    bottom: 20px;
+    margin-left: 275px;
+}
+
+#hand1 td{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 150px;
+    width: 100px;
+}
+
+#hand2 td{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 150px;
+    width: 100px;
+}
+
+#gameDeck{
+    height: 200px;
+    margin-left: 100px;
+}
+
+#gameDiscard{
+    height: 200px;
+    float: right;
+    margin-right: 100px;
 }
